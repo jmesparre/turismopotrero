@@ -1,0 +1,244 @@
+{
+    "marcadores": [
+      {
+        "id": 1,
+        "ubicacion": {
+          "longitude": -66.237,
+          "latitude": -33.222
+        },
+        "categoria": "Gastronomía",
+        "subcategoria": "Bares",
+        "icono": "Beer",
+        "popup": {
+          "titulo": "Bar El Patio",
+          "categoria": "Gastronomía",
+          "subcategoria": "Bares",
+          "descripcion": "Bar con ambiente relajado y variedad de cervezas artesanales."
+        }
+      },
+      {
+        "id": 2,
+        "ubicacion": {
+          "longitude": -66.227,
+          "latitude": -33.228
+        },
+        "categoria": "Gastronomía",
+        "subcategoria": "Restaurantes",
+        "icono": "ForkKnife",
+        "popup": {
+          "titulo": "Restaurante La Estación",
+          "categoria": "Gastronomía",
+          "subcategoria": "Restaurantes",
+          "descripcion": "Restaurante con cocina internacional y ambiente acogedor."
+        }
+      },
+      {
+        "id": 3,
+        "ubicacion": {
+          "longitude": -66.237,
+          "latitude": -33.224
+        },
+        "categoria": "Gastronomía",
+        "subcategoria": "Heladerías",
+        "icono": "IceCream",
+        "popup": {
+          "titulo": "Heladería Los Tres Sabores",
+          "categoria": "Gastronomía",
+          "subcategoria": "Heladerías",
+          "descripcion": "Heladería artesanal con variedad de sabores únicos."
+        }
+      },
+      {
+        "id": 4,
+        "ubicacion": {
+          "longitude": -66.229,
+          "latitude": -33.230
+        },
+        "categoria": "Turismo",
+        "subcategoria": "Ríos",
+        "icono": "Waves",
+        "popup": {
+          "titulo": "Río La Plata",
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "descripcion": "Río importante con actividades de pesca y navegación."
+        }
+      },
+      {
+        "id": 5,
+        "ubicacion": {
+          "longitude": -66.220,
+          "latitude": -33.230
+        },
+        "categoria": "Turismo",
+        "subcategoria": "Caminatas",
+        "icono": "Footprints",
+        "popup": {
+          "titulo": "Sendero El Mirador",
+          "categoria": "Turismo",
+          "subcategoria": "Caminatas",
+          "descripcion": "Sendero con vistas panorámicas de la ciudad."
+        }
+      },
+      {
+        "id": 6,
+        "ubicacion": {
+          "longitude": -66.225,
+          "latitude": -33.210
+        },
+        "categoria": "Turismo",
+        "subcategoria": "Parques",
+        "icono": "Trees",
+        "popup": {
+          "titulo": "Parque La Ciudad",
+          "categoria": "Turismo",
+          "subcategoria": "Parques",
+          "descripcion": "Parque urbano con áreas verdes y recreativas."
+        }
+      },
+      {
+        "id": 7,
+        "ubicacion": {
+          "longitude": -66.239,
+          "latitude": -33.229
+        },
+        "categoria": "Gastronomía",
+        "subcategoria": "Bares",
+        "icono": "Beer",
+        "popup": {
+          "titulo": "Bar Cachito",
+          "categoria": "Gastronomía",
+          "subcategoria": "Bares",
+          "descripcion": "Bar con ambiente relajado y variedad de cervezas artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 8,
+        "ubicacion": {
+          "longitude": -66.231,
+          "latitude": -33.221
+        },
+        "categoria": "Gastronomía",
+        "subcategoria": "Cafeterias",
+        "icono": "Coffee",
+        "popup": {
+          "titulo": "Cafeteria de Pepé",
+          "categoria": "Gastronomía",
+          "subcategoria": "Cafeteria",
+          "descripcion": "CAFEE con ambiente relajado y variedad de cervezas artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 9,
+        "ubicacion": {
+          "longitude": -66.232,
+          "latitude": -33.222
+        },
+        "categoria": "Hospedaje",
+        "subcategoria": "Hoteles",
+        "icono": "Building",
+        "popup": {
+          "titulo": "Hotel Potrero",
+          "categoria": "Hospedaje",
+          "subcategoria": "Hoteles",
+          "descripcion": "Hotel con ambiente relajado y variedad de cervezas artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 10,
+        "ubicacion": {
+          "longitude": -66.234,
+          "latitude": -33.2233
+        },
+        "categoria": "Hospedaje",
+        "subcategoria": "Camping",
+        "icono": "Tent",
+        "popup": {
+          "titulo": "Camping Potrero",
+          "categoria": "Hospedaje",
+          "subcategoria": "Camping",
+          "descripcion": "Camping lorem ismu dola cuatas ficjas bratitas todo pora usted con ambiente relajado y variedad de cervezas artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 11,
+        "ubicacion": {
+          "longitude": -66.236,
+          "latitude": -33.221
+        },
+        "categoria": "Hospedaje",
+        "subcategoria": "Hostels",
+        "icono": "BedSingle",
+        "popup": {
+          "titulo": "Hostel La Guadalupe",
+          "categoria": "Hospedaje",
+          "subcategoria": "Hostels",
+          "descripcion": "Hotels con ambiente relajado y variedad de cervezas artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 12,
+        "ubicacion": {
+          "longitude": -66.2333,
+          "latitude": -33.219
+        },
+        "categoria": "Hospedaje",
+        "subcategoria": "Casas",
+        "icono": "Home",
+        "popup": {
+          "titulo": "Casa de Mirtha",
+          "categoria": "Hospedaje",
+          "subcategoria": "Casas",
+          "descripcion": "Casita con ambiente relajado y variedad de cervezas artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 13,
+        "ubicacion": {
+          "longitude": -66.224119,
+          "latitude": -33.212851
+        },
+        "categoria": "Transporte",
+        "subcategoria": "Ida",
+        "icono": "BusFront",
+        "popup": {
+          "titulo": "Parada 1",
+          "categoria": "Transporte",
+          "subcategoria": "Ida",
+          "descripcion": "Transporte artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 14,
+        "ubicacion": {
+          "longitude": -66.238787,
+          "latitude": -33.233085
+        },
+        "categoria": "Transporte",
+        "subcategoria": "Vuelta",
+        "icono": "BusFront",
+        "popup": {
+          "titulo": "Parada 1",
+          "categoria": "Transporte",
+          "subcategoria": "Vuelta",
+          "descripcion": "Transporte artesantoxicaaaales."
+        }
+      },
+      {
+        "id": 15,
+        "ubicacion": {
+          "longitude": -66.228,
+          "latitude": -33.220
+        },
+        "categoria": "Gastronomía",
+        "subcategoria": "Restaurantes",
+        "icono": "ForkKnife",
+        "popup": {
+          "titulo": "Restaurante Pichulo",
+          "categoria": "Gastronomía",
+          "subcategoria": "Restaurantes",
+          "descripcion": "Restaurante con cocina pichula internacional y ambiente acogedor."
+        }
+      }
+    ]
+  }
