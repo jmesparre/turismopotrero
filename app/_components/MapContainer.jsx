@@ -108,7 +108,7 @@ function MapContainer() {
           latitude: -33.222,
           zoom: 13.5,
         }}
-        style={{ width: "100%", height: 700 }}
+        style={{ width: "100%", height: "100%", position: "fixed" }}
         mapStyle={mapStyle}  // Cambiado a usar el estado
         maxZoom={16}
         maxBounds={bounds}
