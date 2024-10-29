@@ -20,6 +20,9 @@ import {
 } from "lucide-react";
 import { useMapContext } from "./MapContext";
 import "./maplibre-gl.css";
+import localidades from "./localidades.json";
+
+
 
 const streetsStyle = "https://api.maptiler.com/maps/streets/style.json?key=QQA77dxgxuJjLwWBDCe5";
 const satelliteStyle = "https://api.maptiler.com/maps/satellite/style.json?key=QQA77dxgxuJjLwWBDCe5";
@@ -38,9 +41,9 @@ function MapContainer() {
   };
 
   const bounds = [
-    [-66.28, -33.248],
-    [-66.18, -33.19],
-  ];
+    [-67.34, -35.02],  // Esquina suroeste de San Luis
+    [-64.54, -32.35]   // Esquina noreste de San Luis
+];
 
   const togglePopup = (marcadorId) => {
     setSelectedMarkerId((prevId) =>
@@ -95,6 +98,23 @@ function MapContainer() {
         return null;
     }
   }
+  const [viewState, setViewState] = useState({
+    longitude: -66.32880,
+    latitude: -33.25044,
+    zoom: 10.5,
+  });
+  
+  const { selectedLocalidad } = useMapContext();
+
+  useEffect(() => {
+    if (selectedLocalidad) {
+      const { longitude, latitude, zoom } = selectedLocalidad.viewState;
+      setViewState({ longitude, latitude, zoom });
+    }
+  }, [selectedLocalidad]);
+  
+
+
 
   return (
     <>
@@ -103,13 +123,10 @@ function MapContainer() {
       </button>
       <Map
         className="fixed top-0"
-        initialViewState={{
-          longitude: -66.237,
-          latitude: -33.222,
-          zoom: 13.5,
-        }}
+        {...viewState}
+        onMove={(evt) => setViewState(evt.viewState)}
         style={{ width: "100%", height: "100%", position: "fixed" }}
-        mapStyle={mapStyle}  // Cambiado a usar el estado
+        mapStyle={mapStyle}
         maxZoom={16}
         maxBounds={bounds}
       >

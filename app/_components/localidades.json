@@ -1,0 +1,7 @@
+[
+  { "nombre": "Capital", "viewState": { "longitude": -66.3575, "latitude": -33.2882, "zoom": 12 } },
+  { "nombre": "Juana Koslay", "viewState": { "longitude": -66.2408, "latitude": -33.2722, "zoom": 13 } },
+  { "nombre": "Potrero de los Funes", "viewState": { "longitude": -66.237, "latitude": -33.222, "zoom": 13.5 } },
+  { "nombre": "El Volcan", "viewState": { "longitude": -66.1827, "latitude": -33.2508, "zoom": 13.5 } },
+  { "nombre": "Estancia Grande", "viewState": { "longitude": -66.14945, "latitude": -33.18263, "zoom": 12 } } 
+]

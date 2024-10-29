@@ -4,7 +4,7 @@ import Provider from "./Provider";
 
 
 export const metadata = {
-  title: "Turismo Potrero",
+  title: "Turismo San Luis",
   description: "por Juan",
 };
 
