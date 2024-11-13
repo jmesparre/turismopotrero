@@ -2,3 +2,16 @@
 {
     display:none;
 }
+
+.sidebar-on {
+ 
+        position: relative;
+        overflow: visible;
+        width: auto;
+        height: auto;
+        margin: 2px;
+}
+
+.icon-trigger svg{
+    display: none;
+}

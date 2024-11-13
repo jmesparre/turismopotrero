@@ -16,6 +16,7 @@ import {
   BedSingle,
   BusFront,
   Home,
+  ChevronsUpDown,
 } from "lucide-react";
 import {
   Sidebar,
@@ -120,7 +121,7 @@ export function AppSidebar() {
               alt="logo"
             />
           </Link>
-          <SidebarGroupLabel>Subtitulo Copado</SidebarGroupLabel>
+          <SidebarGroupLabel>Tu guía para San Luis</SidebarGroupLabel>
           <SidebarContent>
             <SidebarMenu className="gap-0">
               {items.map((item) => (
@@ -129,8 +130,11 @@ export function AppSidebar() {
                     <Collapsible defaultOpen={false} className="group/collapsible">
                       <CollapsibleTrigger asChild>
                         <SidebarMenuButton>
+                          
                           <item.icon />
                           <span>{item.title}</span>
+                      <ChevronsUpDown className="h-4 w-5 absolute right-4 hover:bg-gray-200 rounded transition ease-in-out" />
+
                         </SidebarMenuButton>
                       </CollapsibleTrigger>
                       <CollapsibleContent>
@@ -188,7 +192,7 @@ export function AppSidebar() {
                     key={localidad.nombre}
                     onClick={() => handleLocalidadSelect(localidad)}
                   >
-                    <span className=" hover:text-primary cursor-pointer">{localidad.nombre}</span>
+                    <span className="hover:text-primary cursor-pointer">{localidad.nombre}</span>
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>

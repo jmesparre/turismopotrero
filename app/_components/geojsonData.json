@@ -1,0 +1,19 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-66.224, -33.212],
+          [-66.223, -33.211],
+          [-66.222, -33.210]
+        ]
+      },
+      "properties": {
+        "nombre": "Sendero del Condor"
+      }
+    }
+  ]
+}

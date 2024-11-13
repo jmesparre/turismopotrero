@@ -78,6 +78,17 @@
           "categoria": "Turismo",
           "subcategoria": "Caminatas",
           "descripcion": "Sendero con vistas panorámicas de la ciudad."
+        },
+        "recorrido": {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-66.220, -33.230],
+              [-66.241, -33.211],
+              [-66.252, -33.222]
+            ]
+          }
         }
       },
       {
@@ -239,6 +250,33 @@
           "subcategoria": "Restaurantes",
           "descripcion": "Restaurante con cocina pichula internacional y ambiente acogedor."
         }
+      },
+      {
+        "id": 16,
+        "ubicacion": {
+          "longitude": -66.225,
+          "latitude": -33.227
+        },
+        "categoria": "Turismo",
+        "subcategoria": "Caminatas",
+        "icono": "Footprints",
+        "popup": {
+          "titulo": "Sendero del Condor",
+          "categoria": "Turismo",
+          "subcategoria": "Caminatas",
+          "descripcion": "Sendero con vistas de condor de la vida."
+        },
+        "recorrido": {
+        "type": "Feature",
+        "geometry": {
+          "type": "LineString",
+          "coordinates": [
+            [-66.225, -33.227],
+            [-66.226, -33.228],
+            [-66.229, -33.2339]
+          ]
+        }
+      }
       }
     ]
   }

@@ -1,58 +1,39 @@
 "use client";
 
 import * as React from "react";
-import { useState, useEffect, useRef, useCallback } from "react";
-import Map, { Marker, Popup, NavigationControl } from "react-map-gl/maplibre";
+import { useState, useEffect, useCallback } from "react";
+import Map, { Marker, Popup, NavigationControl, Source, Layer } from "react-map-gl/maplibre";
 import marcadores from "./marcadores.json";
-import {
-  Waves,
-  Footprints,
-  Trees,
-  Beer,
-  ForkKnife,
-  IceCream,
-  Coffee,
-  Home,
-  Tent,
-  BedSingle,
-  Building,
-  BusFront,
-} from "lucide-react";
+import { Waves, Footprints, Trees, Beer, ForkKnife, IceCream, Coffee, Home, Tent, BedSingle, Building, BusFront } from "lucide-react";
 import { useMapContext } from "./MapContext";
 import "./maplibre-gl.css";
-import localidades from "./localidades.json";
-
-
 
 const streetsStyle = "https://api.maptiler.com/maps/streets/style.json?key=QQA77dxgxuJjLwWBDCe5";
 const satelliteStyle = "https://api.maptiler.com/maps/satellite/style.json?key=QQA77dxgxuJjLwWBDCe5";
 
 function MapContainer() {
-  const [selectedMarkerId, setSelectedMarkerId] = useState(null); // Solo un marcador seleccionado
-  const popupContentRef = useRef(null);
-  const { visibleCategories } = useMapContext(); // Accede al contexto para categorías visibles
+  const [selectedMarkerId, setSelectedMarkerId] = useState(null);
+  const [visibleRoutes, setVisibleRoutes] = useState(new Set()); // State to manage visible routes
+  const { visibleCategories } = useMapContext();
   
   const [mapStyle, setMapStyle] = useState(streetsStyle);
-
+  
   const toggleMapStyle = () => {
-    setMapStyle((prevStyle) => 
-      prevStyle === streetsStyle ? satelliteStyle : streetsStyle
-    );
+    setMapStyle((prevStyle) => (prevStyle === streetsStyle ? satelliteStyle : streetsStyle));
   };
 
   const bounds = [
-    [-67.34, -35.02],  // Esquina suroeste de San Luis
-    [-64.54, -32.35]   // Esquina noreste de San Luis
-];
+    [-67.34, -35.02], 
+    [-64.54, -32.35]   
+  ];
 
   const togglePopup = (marcadorId) => {
-    setSelectedMarkerId((prevId) =>
-      prevId === marcadorId ? null : marcadorId
-    );
+    setSelectedMarkerId((prevId) => (prevId === marcadorId ? null : marcadorId));
   };
 
   const handleClickOutside = useCallback((e) => {
-    if (popupContentRef.current && !popupContentRef.current.contains(e.target)) {
+    const popup = document.querySelector('.maplibregl-popup'); // Update to use the class for popups
+    if (popup && !popup.contains(e.target)) {
       setSelectedMarkerId(null);
     }
   }, []);
@@ -68,42 +49,30 @@ function MapContainer() {
     };
   }, [selectedMarkerId, handleClickOutside]);
 
-  function getIcono(iconoNombre) {
+  const getIcono = (iconoNombre) => {
     switch (iconoNombre) {
-      case "Waves":
-        return Waves;
-      case "Footprints":
-        return Footprints;
-      case "Trees":
-        return Trees;
-      case "Beer":
-        return Beer;
-      case "ForkKnife":
-        return ForkKnife;
-      case "IceCream":
-        return IceCream;
-      case "Coffee":
-        return Coffee;
-      case "Building":
-        return Building;
-      case "Tent":
-        return Tent;
-      case "BedSingle":
-        return BedSingle;
-      case "Home":
-        return Home;
-      case "BusFront":
-        return BusFront;
-      default:
-        return null;
+      case "Waves": return Waves;
+      case "Footprints": return Footprints;
+      case "Trees": return Trees;
+      case "Beer": return Beer;
+      case "ForkKnife": return ForkKnife;
+      case "IceCream": return IceCream;
+      case "Coffee": return Coffee;
+      case "Building": return Building;
+      case "Tent": return Tent;
+      case "BedSingle": return BedSingle;
+      case "Home": return Home;
+      case "BusFront": return BusFront;
+      default: return null;
     }
-  }
+  };
+
   const [viewState, setViewState] = useState({
     longitude: -66.32880,
     latitude: -33.25044,
     zoom: 10.5,
   });
-  
+
   const { selectedLocalidad } = useMapContext();
 
   useEffect(() => {
@@ -112,13 +81,10 @@ function MapContainer() {
       setViewState({ longitude, latitude, zoom });
     }
   }, [selectedLocalidad]);
-  
-
-
 
   return (
     <>
-      <button onClick={toggleMapStyle} className="absolute top-4 right-4 z-10 bg-white p-2 rounded shadow">
+      <button onClick={toggleMapStyle} className="absolute bottom-10 right-2 medium text-xs z-10 bg-white p-2 rounded shadow">
         Cambiar a {mapStyle === streetsStyle ? "Satélite" : "Calle"}
       </button>
       <Map
@@ -132,13 +98,11 @@ function MapContainer() {
       >
         {marcadores.marcadores.map((marcador) => {
           const Icono = getIcono(marcador.icono);
-
           if (!Icono) {
             console.error(`Icono no encontrado para ${marcador.icono}`);
             return null;
           }
 
-          // Filtra los marcadores según la categoría visible
           if (!visibleCategories[marcador.subcategoria]) {
             return null;
           }
@@ -159,33 +123,49 @@ function MapContainer() {
                 <Popup
                   longitude={marcador.ubicacion.longitude}
                   latitude={marcador.ubicacion.latitude}
-                  anchor="top"
                   onClose={() => setSelectedMarkerId(null)}
                   closeOnClick={false}
+                  className="popup-style" // Ensure this class exists in your CSS for styling
                 >
-                  <div className="pt-2 pb-2 pl-4 pr-4" ref={popupContentRef}>
-                    <h3 className="pb-2 scroll-m-20 text-2xl font-semibold tracking-tight">
-                      {marcador.popup.titulo}
-                    </h3>
-                    <p>
-                      <strong>Categoría:</strong> {marcador.categoria}
-                    </p>
-                    <p>
-                      <strong>Subcategoría:</strong> {marcador.subcategoria}
-                    </p>
-                    <p className="pt-2">{marcador.popup.descripcion}</p>
+                  <div className="pl-4 pr-4 pb-1 pt-1 cursor-pointer">
+                    <h3 className="scroll-m-20 text-lg font-semibold tracking-tight mb-2">{marcador.popup.titulo}</h3>
+                    <p className="text-xs font-light leading-4">{marcador.popup.descripcion}</p>
+                    {marcador.subcategoria === "Caminatas" && (
+                      <>
+                        <button className="bg-gray-200 rounded pl-2 pr-2 mt-2 hover:bg-gray-300" onClick={() => {
+                          if (visibleRoutes.has(marcador.id)) {
+                            setVisibleRoutes(prev => new Set([...prev].filter(id => id !== marcador.id)));
+                          } else {
+                            setVisibleRoutes(prev => new Set([...prev, marcador.id]));
+                          }
+                        }}>
+                          {visibleRoutes.has(marcador.id) ? "Ocultar Recorrido" : "Mostrar Recorrido"}
+                        </button>
+                      </>
+                    )}
                   </div>
                 </Popup>
+              )}
+              {visibleRoutes.has(marcador.id) && marcador.recorrido && (
+                <Source type="geojson" data={marcador.recorrido}>
+                  <Layer
+                    id={`route-${marcador.id}`}
+                    type="line"
+                    layout={{
+                      "line-cap": "round",
+                      "line-join": "round"
+                    }}
+                    paint={{
+                      "line-color": "rgb(127 87 241)",
+                      "line-width": 4
+                    }}
+                  />
+                </Source>
               )}
             </React.Fragment>
           );
         })}
-        <NavigationControl
-          position="bottom-right"
-          showCompass
-          showZoom
-          visualizePitch
-        />
+        <NavigationControl position="top-right" />
       </Map>
     </>
   );
