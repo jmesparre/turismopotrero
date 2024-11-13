@@ -77,7 +77,8 @@
           "titulo": "Sendero El Mirador",
           "categoria": "Turismo",
           "subcategoria": "Caminatas",
-          "descripcion": "Sendero con vistas panorámicas de la ciudad."
+          "descripcion": "Sendero con vistas panorámicas de la ciudad.",
+          "distancia": "Distancia: 10km"
         },
         "recorrido": {
           "type": "Feature",
@@ -217,6 +218,17 @@
           "categoria": "Transporte",
           "subcategoria": "Ida",
           "descripcion": "Transporte artesantoxicaaaales."
+        },
+        "recorrido": {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-66.224119, -33.212851],
+              [-66.225, -33.213],
+              [-66.226, -33.224]
+            ]
+          }
         }
       },
       {
@@ -229,10 +241,21 @@
         "subcategoria": "Vuelta",
         "icono": "BusFront",
         "popup": {
-          "titulo": "Parada 1",
+          "titulo": "Parada 2",
           "categoria": "Transporte",
           "subcategoria": "Vuelta",
           "descripcion": "Transporte artesantoxicaaaales."
+        },
+        "recorrido": {
+          "type": "Feature",
+          "geometry": {
+            "type": "LineString",
+            "coordinates": [
+              [-66.238787, -33.233085],
+              [-66.239, -33.244],
+              [-66.240, -33.255]
+            ]
+          }
         }
       },
       {
@@ -264,7 +287,8 @@
           "titulo": "Sendero del Condor",
           "categoria": "Turismo",
           "subcategoria": "Caminatas",
-          "descripcion": "Sendero con vistas de condor de la vida."
+          "descripcion": "Sendero con vistas de condor de la vida.",
+          "distancia": "- Distancia: 30km"
         },
         "recorrido": {
         "type": "Feature",
@@ -273,7 +297,7 @@
           "coordinates": [
             [-66.225, -33.227],
             [-66.226, -33.228],
-            [-66.229, -33.2339]
+            [-66.229, -33.269]
           ]
         }
       }

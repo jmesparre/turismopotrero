@@ -130,9 +130,9 @@ function MapContainer() {
                   <div className="pl-4 pr-4 pb-1 pt-1 cursor-pointer">
                     <h3 className="scroll-m-20 text-lg font-semibold tracking-tight mb-2">{marcador.popup.titulo}</h3>
                     <p className="text-xs font-light leading-4">{marcador.popup.descripcion}</p>
-                    {marcador.subcategoria === "Caminatas" && (
+                    {(marcador.subcategoria === "Caminatas" || marcador.categoria === "Transporte") && (
                       <>
-                        <button className="bg-gray-200 rounded pl-2 pr-2 mt-2 hover:bg-gray-300" onClick={() => {
+                        <button className="bg-gray-200 hover:bg-gray-300 pl-1 pr-1 w-full rounded mt-3" onClick={() => {
                           if (visibleRoutes.has(marcador.id)) {
                             setVisibleRoutes(prev => new Set([...prev].filter(id => id !== marcador.id)));
                           } else {
