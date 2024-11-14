@@ -7,7 +7,7 @@ body {
   height: 100%;
 }
 
-@layer utilities {
+@layer utilities {  
   .text-balance {
     text-wrap: balance;
   }
@@ -92,13 +92,4 @@ body {
   body {
     @apply bg-background text-foreground;
   }
-}
-
-
-.switch-chico {
-  transform: scale(0.6);
-  transform-origin: center;
-  position: fixed;
-  right:0;
-  
 }

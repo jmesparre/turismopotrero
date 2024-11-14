@@ -110,7 +110,7 @@ export function AppSidebar() {
 
   return (
     <Sidebar variant="floating">
-      <SidebarContent className="pl-2">
+      <SidebarContent className="pl-2 select-none  subpixel-antialiased">
         <SidebarGroup>
           <Link href={"/"}>
             <Image
@@ -179,7 +179,7 @@ export function AppSidebar() {
           <SidebarMenuItem>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <SidebarMenuButton className="shadow border">
+                <SidebarMenuButton className="shadow border text-xs">
                   <p> Elegir Localidad: </p>
                 </SidebarMenuButton>
               </DropdownMenuTrigger>
@@ -192,7 +192,7 @@ export function AppSidebar() {
                     key={localidad.nombre}
                     onClick={() => handleLocalidadSelect(localidad)}
                   >
-                    <span className="hover:text-primary cursor-pointer">{localidad.nombre}</span>
+                    <span className="hover:text-primary text-xs cursor-pointer">{localidad.nombre}</span>
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>
