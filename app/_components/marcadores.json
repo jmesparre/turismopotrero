@@ -1,7 +1,6 @@
 {
     "marcadores": [
       {
-        "id": 1,
         "ubicacion": {
           "longitude": -66.237,
           "latitude": -33.222
@@ -17,7 +16,6 @@
         }
       },
       {
-        "id": 2,
         "ubicacion": {
           "longitude": -66.227,
           "latitude": -33.228
@@ -33,7 +31,6 @@
         }
       },
       {
-        "id": 3,
         "ubicacion": {
           "longitude": -66.237,
           "latitude": -33.224
@@ -49,7 +46,6 @@
         }
       },
       {
-        "id": 4,
         "ubicacion": {
           "longitude": -66.229,
           "latitude": -33.230
@@ -65,7 +61,6 @@
         }
       },
       {
-        "id": 5,
         "ubicacion": {
           "longitude": -66.220,
           "latitude": -33.230
@@ -93,7 +88,6 @@
         }
       },
       {
-        "id": 6,
         "ubicacion": {
           "longitude": -66.225,
           "latitude": -33.210
@@ -109,7 +103,6 @@
         }
       },
       {
-        "id": 7,
         "ubicacion": {
           "longitude": -66.239,
           "latitude": -33.229
@@ -125,7 +118,6 @@
         }
       },
       {
-        "id": 8,
         "ubicacion": {
           "longitude": -66.231,
           "latitude": -33.221
@@ -141,7 +133,6 @@
         }
       },
       {
-        "id": 9,
         "ubicacion": {
           "longitude": -66.232,
           "latitude": -33.222
@@ -157,7 +148,6 @@
         }
       },
       {
-        "id": 10,
         "ubicacion": {
           "longitude": -66.234,
           "latitude": -33.2233
@@ -173,7 +163,6 @@
         }
       },
       {
-        "id": 11,
         "ubicacion": {
           "longitude": -66.236,
           "latitude": -33.221
@@ -189,7 +178,6 @@
         }
       },
       {
-        "id": 12,
         "ubicacion": {
           "longitude": -66.2333,
           "latitude": -33.219
@@ -205,7 +193,6 @@
         }
       },
       {
-        "id": 13,
         "ubicacion": {
           "longitude": -66.224119,
           "latitude": -33.212851
@@ -232,7 +219,6 @@
         }
       },
       {
-        "id": 14,
         "ubicacion": {
           "longitude": -66.238787,
           "latitude": -33.233085
@@ -259,7 +245,6 @@
         }
       },
       {
-        "id": 15,
         "ubicacion": {
           "longitude": -66.228,
           "latitude": -33.220
@@ -275,7 +260,6 @@
         }
       },
       {
-        "id": 16,
         "ubicacion": {
           "longitude": -66.225,
           "latitude": -33.227
