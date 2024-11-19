@@ -16,6 +16,7 @@ function MapContainer() {
   const [visibleRoutes, setVisibleRoutes] = useState(new Set());
   const [marcadores, setMarcadores] = useState([]); // Estado para guardar marcadores con IDs generados
   const { visibleCategories } = useMapContext();
+  
   const [mapStyle, setMapStyle] = useState(streetsStyle);
 
   useEffect(() => {
@@ -157,8 +158,37 @@ function MapContainer() {
                       {marcador.popup.titulo}
                     </h3>
                     <p className="text-xs font-light leading-4">{marcador.popup.descripcion}</p>
+                    {(marcador.subcategoria === "Caminatas" || marcador.categoria === "Transporte") && (
+                      <>
+                        <button className="bg-gray-200 hover:bg-gray-300 pl-1 pr-1 w-full rounded mt-3" onClick={() => {
+                          if (visibleRoutes.has(marcador.id)) {
+                            setVisibleRoutes(prev => new Set([...prev].filter(id => id !== marcador.id)));
+                          } else {
+                            setVisibleRoutes(prev => new Set([...prev, marcador.id]));
+                          }
+                        }}>
+                          {visibleRoutes.has(marcador.id) ? "Ocultar Recorrido" : "Mostrar Recorrido"}
+                        </button>
+                      </>
+                    )}
                   </div>
                 </Popup>
+              )}
+              {visibleRoutes.has(marcador.id) && marcador.recorrido && (
+                <Source type="geojson" data={marcador.recorrido}>
+                  <Layer
+                    id={`route-${marcador.id}`}
+                    type="line"
+                    layout={{
+                      "line-cap": "round",
+                      "line-join": "round"
+                    }}
+                    paint={{
+                      "line-color": "rgb(127 87 241)",
+                      "line-width": 4
+                    }}
+                  />
+                </Source>
               )}
             </React.Fragment>
           );
