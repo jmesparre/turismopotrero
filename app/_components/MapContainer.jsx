@@ -2,21 +2,44 @@
 
 import * as React from "react";
 import { useState, useEffect, useCallback } from "react";
-import Map, { Marker, Popup, NavigationControl, Source, Layer } from "react-map-gl/maplibre";
+import Map, {
+  Marker,
+  Popup,
+  NavigationControl,
+  Source,
+  Layer,
+} from "react-map-gl/maplibre";
 import rawMarcadores from "./marcadores.json"; // JSON sin IDs explícitos
-import { Waves, Footprints, Trees, Beer, ForkKnife, IceCream, Coffee, Home, Tent, BedSingle, Building, BusFront } from "lucide-react";
+import {
+  Waves,
+  Footprints,
+  Trees,
+  Beer,
+  ForkKnife,
+  IceCream,
+  Coffee,
+  Home,
+  Tent,
+  BedSingle,
+  Building,
+  BusFront,
+  Droplet,
+  Landmark,
+} from "lucide-react";
 import { useMapContext } from "./MapContext";
 import "./maplibre-gl.css";
 
-const streetsStyle = "https://api.maptiler.com/maps/streets/style.json?key=QQA77dxgxuJjLwWBDCe5";
-const satelliteStyle = "https://api.maptiler.com/maps/satellite/style.json?key=QQA77dxgxuJjLwWBDCe5";
+const streetsStyle =
+  "https://api.maptiler.com/maps/streets/style.json?key=QQA77dxgxuJjLwWBDCe5";
+const satelliteStyle =
+  "https://api.maptiler.com/maps/satellite/style.json?key=QQA77dxgxuJjLwWBDCe5";
 
 function MapContainer() {
   const [selectedMarkerId, setSelectedMarkerId] = useState(null);
   const [visibleRoutes, setVisibleRoutes] = useState(new Set());
   const [marcadores, setMarcadores] = useState([]); // Estado para guardar marcadores con IDs generados
   const { visibleCategories } = useMapContext();
-  
+
   const [mapStyle, setMapStyle] = useState(streetsStyle);
 
   useEffect(() => {
@@ -29,7 +52,9 @@ function MapContainer() {
   }, []);
 
   const toggleMapStyle = () => {
-    setMapStyle((prevStyle) => (prevStyle === streetsStyle ? satelliteStyle : streetsStyle));
+    setMapStyle((prevStyle) =>
+      prevStyle === streetsStyle ? satelliteStyle : streetsStyle
+    );
   };
 
   const bounds = [
@@ -38,7 +63,9 @@ function MapContainer() {
   ];
 
   const togglePopup = (marcadorId) => {
-    setSelectedMarkerId((prevId) => (prevId === marcadorId ? null : marcadorId));
+    setSelectedMarkerId((prevId) =>
+      prevId === marcadorId ? null : marcadorId
+    );
   };
 
   const handleClickOutside = useCallback((e) => {
@@ -85,6 +112,10 @@ function MapContainer() {
         return Home;
       case "BusFront":
         return BusFront;
+        case "Droplet":
+          return Droplet;
+        case "Landmark":
+        return Landmark;
       default:
         return null;
     }
@@ -142,7 +173,7 @@ function MapContainer() {
                 className="bg-white rounded shadow p-1 hover:p-1.5 transition ease-out"
               >
                 <div>
-                  <Icono size={23} />
+                  <Icono size={21} />
                 </div>
               </Marker>
               {selectedMarkerId === marcador.id && (
@@ -157,17 +188,32 @@ function MapContainer() {
                     <h3 className="subpixel-antialiased scroll-m-20 text-lg font-extrabold tracking-tight mb-2">
                       {marcador.popup.titulo}
                     </h3>
-                    <p className="text-xs font-light leading-4">{marcador.popup.descripcion}</p>
-                    {(marcador.subcategoria === "Caminatas" || marcador.categoria === "Transporte") && (
+                    <p className="text-xs font-light leading-4">
+                      {marcador.popup.descripcion}
+                    </p>
+                    {(marcador.subcategoria === "Caminatas" ||
+                      marcador.categoria === "Transporte") && (
                       <>
-                        <button className="bg-gray-200 hover:bg-gray-300 pl-1 pr-1 w-full rounded mt-3" onClick={() => {
-                          if (visibleRoutes.has(marcador.id)) {
-                            setVisibleRoutes(prev => new Set([...prev].filter(id => id !== marcador.id)));
-                          } else {
-                            setVisibleRoutes(prev => new Set([...prev, marcador.id]));
-                          }
-                        }}>
-                          {visibleRoutes.has(marcador.id) ? "Ocultar Recorrido" : "Mostrar Recorrido"}
+                        <button
+                          className="bg-gray-200 hover:bg-gray-300 pl-1 pr-1 w-full rounded mt-3"
+                          onClick={() => {
+                            if (visibleRoutes.has(marcador.id)) {
+                              setVisibleRoutes(
+                                (prev) =>
+                                  new Set(
+                                    [...prev].filter((id) => id !== marcador.id)
+                                  )
+                              );
+                            } else {
+                              setVisibleRoutes(
+                                (prev) => new Set([...prev, marcador.id])
+                              );
+                            }
+                          }}
+                        >
+                          {visibleRoutes.has(marcador.id)
+                            ? "Ocultar Recorrido"
+                            : "Mostrar Recorrido"}
                         </button>
                       </>
                     )}
@@ -181,11 +227,11 @@ function MapContainer() {
                     type="line"
                     layout={{
                       "line-cap": "round",
-                      "line-join": "round"
+                      "line-join": "round",
                     }}
                     paint={{
                       "line-color": "rgb(127 87 241)",
-                      "line-width": 4
+                      "line-width": 4,
                     }}
                   />
                 </Source>

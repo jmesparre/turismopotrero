@@ -17,6 +17,8 @@ import {
   BusFront,
   Home,
   ChevronsUpDown,
+  Droplet,
+  Landmark,
 } from "lucide-react";
 import {
   Sidebar,
@@ -43,14 +45,11 @@ import {
 } from "../../components/ui/dropdown-menu";
 import { Switch } from "../../components/ui/switch";
 import localidades from "./localidades.json";
-import { useMapContext } from "./MapContext"; // Importa el contexto
+import { useMapContext } from "./MapContext"; 
 
 export function AppSidebar() {
-  const {
-    visibleCategories,
-    setVisibleCategories,
-    setSelectedLocalidad,
-  } = useMapContext(); // Accede al estado global
+  const { visibleCategories, setVisibleCategories, setSelectedLocalidad } =
+    useMapContext(); 
 
   const handleSwitchChange = (subItemTitle, checked) => {
     setVisibleCategories((prevStates) => ({
@@ -61,11 +60,11 @@ export function AppSidebar() {
 
   const toggleSwitch = (subItemTitle) => {
     const currentState = visibleCategories[subItemTitle] || false;
-    handleSwitchChange(subItemTitle, !currentState); // Cambia el estado del switch
+    handleSwitchChange(subItemTitle, !currentState); 
   };
 
   const handleLocalidadSelect = (localidad) => {
-    setSelectedLocalidad(localidad); // Ahora `selectedLocalidad` contiene el objeto de localidad completo
+    setSelectedLocalidad(localidad); 
   };
 
   const items = [
@@ -76,6 +75,8 @@ export function AppSidebar() {
         { title: "Caminatas", icon: Footprints },
         { title: "Parques", icon: Trees },
         { title: "Ríos", icon: Waves },
+        { title: "Diques", icon: Droplet },
+        { title: "Monumentos", icon: Landmark },
       ],
     },
     {
@@ -127,30 +128,38 @@ export function AppSidebar() {
               {items.map((item) => (
                 <SidebarMenuItem key={item.title}>
                   {item.subItems ? (
-                    <Collapsible defaultOpen={false} className="group/collapsible">
+                    <Collapsible
+                      defaultOpen={false}
+                      className="group/collapsible"
+                    >
                       <CollapsibleTrigger asChild>
                         <SidebarMenuButton>
-                          
                           <item.icon />
                           <span>{item.title}</span>
-                      <ChevronsUpDown className="h-4 w-5 absolute right-4 hover:bg-gray-200 rounded transition ease-in-out" />
-
+                          <ChevronsUpDown className="h-4 w-5 absolute right-4 hover:bg-gray-200 rounded transition ease-in-out" />
                         </SidebarMenuButton>
                       </CollapsibleTrigger>
                       <CollapsibleContent>
                         <SidebarMenuSub>
                           {item.subItems.map((subItem) => (
-                            <SidebarMenuSubItem key={subItem.title} className="flex items-center">
+                            <SidebarMenuSubItem
+                              key={subItem.title}
+                              className="flex items-center"
+                            >
                               <div
                                 className="flex cursor-pointer gap-0.5 w-full hover:text-slate-900"
                                 onClick={() => toggleSwitch(subItem.title)}
                               >
                                 <subItem.icon className="w-4 h-4 mt-0.5" />
-                                <span className="ml-2 text-sm">{subItem.title}</span>
+                                <span className="ml-2 text-sm">
+                                  {subItem.title}
+                                </span>
                               </div>
                               <Switch
                                 className="switch-chico mt-0.5"
-                                checked={visibleCategories[subItem.title] || false}
+                                checked={
+                                  visibleCategories[subItem.title] || false
+                                }
                                 onCheckedChange={(checked) =>
                                   handleSwitchChange(subItem.title, checked)
                                 }
@@ -188,11 +197,13 @@ export function AppSidebar() {
                 className="w-[--radix-popper-anchor-width]"
               >
                 {localidades.map((localidad) => (
-                  <DropdownMenuItem 
+                  <DropdownMenuItem
                     key={localidad.nombre}
                     onClick={() => handleLocalidadSelect(localidad)}
                   >
-                    <span className="hover:text-primary text-xs cursor-pointer">{localidad.nombre}</span>
+                    <span className="hover:text-primary text-xs cursor-pointer">
+                      {localidad.nombre}
+                    </span>
                   </DropdownMenuItem>
                 ))}
               </DropdownMenuContent>

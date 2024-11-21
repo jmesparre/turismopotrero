@@ -45,21 +45,7 @@
           "descripcion": "Heladería artesanal con variedad de sabores únicos."
         }
       },
-      {
-        "ubicacion": {
-          "longitude": -66.229,
-          "latitude": -33.230
-        },
-        "categoria": "Turismo",
-        "subcategoria": "Ríos",
-        "icono": "Waves",
-        "popup": {
-          "titulo": "Río La Plata",
-          "categoria": "Turismo",
-          "subcategoria": "Ríos",
-          "descripcion": "Río importante con actividades de pesca y navegación."
-        }
-      },
+     
       {
         "ubicacion": {
           "longitude": -66.220,
@@ -87,21 +73,7 @@
           }
         }
       },
-      {
-        "ubicacion": {
-          "longitude": -66.225,
-          "latitude": -33.210
-        },
-        "categoria": "Turismo",
-        "subcategoria": "Parques",
-        "icono": "Trees",
-        "popup": {
-          "titulo": "Parque La Ciudad",
-          "categoria": "Turismo",
-          "subcategoria": "Parques",
-          "descripcion": "Parque urbano con áreas verdes y recreativas."
-        }
-      },
+    
       {
         "ubicacion": {
           "longitude": -66.239,
@@ -259,6 +231,956 @@
           "descripcion": "Restaurante con cocina pichula internacional y ambiente acogedor."
         }
       },
+      
+        {
+          "ubicacion": {
+            "longitude": -66.0754114,
+            "latitude": -33.0592452
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Antonio Esteban Aguero",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Antonio Esteban Aguero."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2965257,
+            "latitude": -33.3009105
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Chico",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Chico."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -64.9557724,
+            "latitude": -32.550613399999996
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Piscu Yaco",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Piscu Yaco."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.1499564,
+            "latitude": -32.6333176
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Las Palmeras",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Las Palmeras."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2134966,
+            "latitude": -33.259946
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Cruz De Piedra",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Cruz De Piedra."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.1549868,
+            "latitude": -33.1710402
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Berta Vidal De Battini",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Berta Vidal De Battini."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2952245,
+            "latitude": -32.9259712
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Nogolí",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Nogolí."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.9132937,
+            "latitude": -32.3998285
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Lujan",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Lujan."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.4610028,
+            "latitude": -32.8058315
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique San Felipe",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique San Felipe."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.00254749999999,
+            "latitude": -33.1130846
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique La Florida",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique La Florida."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2024465,
+            "latitude": -33.2614381
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Mirador Dique Cruz De Piedra",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Mirador Dique Cruz De Piedra."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.1402598,
+            "latitude": -32.6226458
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique De San Francisco",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique De San Francisco."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.7231065,
+            "latitude": -32.4025116
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique La Huertita",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique La Huertita."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.0195894,
+            "latitude": -33.1172219
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Embalse La Florida",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Embalse La Florida."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.21739749999999,
+            "latitude": -33.2619012
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Paredón Del Dique Cruz De Piedra",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Paredón Del Dique Cruz De Piedra."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.8831507,
+            "latitude": -33.315901
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Paso De Las Carretas",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Paso De Las Carretas."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.87381859999999,
+            "latitude": -33.3278025
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Las Carreras",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Las Carreras."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2835716,
+            "latitude": -32.9334651
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Nogoli",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Nogoli."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.8887649,
+            "latitude": -33.3126696
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Lago Dique Las Carreras",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Lago Dique Las Carreras."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.5340253,
+            "latitude": -33.654148899999996
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Vulpiani",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Vulpiani."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2322547,
+            "latitude": -33.2305195
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Embalse Potrero De Los Funes",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Embalse Potrero De Los Funes."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2954025,
+            "latitude": -32.9278615
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Mirador Del Dique Nogolí",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Mirador Del Dique Nogolí."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.432227,
+            "latitude": -32.679276099999996
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Dique Villa General Roca",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Dique Villa General Roca."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.21469499999999,
+            "latitude": -33.2550168
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Mirador Del Lago Cruz De Piedra",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Mirador Del Lago Cruz De Piedra."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -64.9567505,
+            "latitude": -32.5501837
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Diques",
+          "icono": "Droplet",
+          "popup": {
+            "titulo": "Piscu Yaco 100",
+            "categoria": "Turismo",
+            "subcategoria": "Diques",
+            "descripcion": "Mirador Del Lago Cruz De Piedra."
+          }
+        },
+        
+          {
+            "ubicacion": {
+              "longitude": -66.2262655,
+              "latitude": -33.2331134
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Nativo",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Nativo."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3123819,
+              "latitude": -33.2920094
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque De Las Naciones",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque De Las Naciones."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.1921224,
+              "latitude": -33.2506047
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Balneario La Hoya",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Balneario La Hoya."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.1825995,
+              "latitude": -33.2506324
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Salto Colorado - San Luis",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Salto Colorado - San Luis."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2262488,
+              "latitude": -33.2530376
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "ArVolar Parque Aéreo",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "ArVolar Parque Aéreo."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -67.0085459,
+              "latitude": -32.497925
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Nacional Sierra De Las Quijadas",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Nacional Sierra De Las Quijadas."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3304452,
+              "latitude": -33.3107988
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Plaza Halcones Del Cielo",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Plaza Halcones Del Cielo."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3369404,
+              "latitude": -33.3021886
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Plaza Pringles",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Plaza Pringles."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.0754114,
+              "latitude": -33.0592452
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Dique Antonio Esteban Aguero",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Dique Antonio Esteban Aguero."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2410224,
+              "latitude": -33.2413125
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Quebrada De Los Cóndores",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Quebrada De Los Cóndores."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3266998,
+              "latitude": -33.3122411
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Iv Centenario",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Iv Centenario."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3495878,
+              "latitude": -33.3061188
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque La Ceramica",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque La Ceramica."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2248816,
+              "latitude": -33.2706004
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Urbano Juana Koslay",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Urbano Juana Koslay."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.524885,
+              "latitude": -33.1365813
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Termal San Jeronimo",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Termal San Jeronimo."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2367473,
+              "latitude": -33.2247673
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Balnearios",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Balnearios."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2993514,
+              "latitude": -33.2852478
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Plaza Del Cerro",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Plaza Del Cerro."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -65.4118279,
+              "latitude": -32.3137151
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Provincial Bajo De Véliz",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Provincial Bajo De Véliz."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3374927,
+              "latitude": -33.2825409
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Plaza 9 De Julio",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Plaza 9 De Julio."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -65.4704093,
+              "latitude": -33.6977366
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Costanera Río Quinto",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Costanera Río Quinto."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3302555,
+              "latitude": -33.2731739
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Plaza Rector Mauricio López",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Plaza Rector Mauricio López."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2600382,
+              "latitude": -33.1914922
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "La Salagria",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "La Salagria."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2470322,
+              "latitude": -33.2590828
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Monumento Al Pueblo Puntano",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Monumento Al Pueblo Puntano."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3179049,
+              "latitude": -33.3057919
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque De Niños",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque De Niños."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3096201,
+              "latitude": -33.1531769
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Parque Astronómico La Punta Palp",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Parque Astronómico La Punta Palp."
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2969174,
+              "latitude": -33.3063185
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Parques",
+            "icono": "Trees",
+            "popup": {
+              "titulo": "Hito Del Bicentenario",
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "descripcion": "Hito Del Bicentenario."
+            }
+          },
+          
+            {
+              "ubicacion": {
+                "longitude": -64.9565913,
+                "latitude": -32.3541366
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Reserva Florofaunistica De Rincón Del Este, Merlo, San Luis",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Reserva Florofaunistica De Rincón Del Este, Merlo, San Luis."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.3037063,
+                "latitude": -33.2764515
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Plaza Los Dados",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Plaza Los Dados."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.287837,
+                "latitude": -33.3022001
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Parque Fotovoltaico Terrazas Del Portezuelo",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Parque Fotovoltaico Terrazas Del Portezuelo."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.3441627,
+                "latitude": -33.2754382
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Parque Lineal",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Parque Lineal."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -65.0119829,
+                "latitude": -32.3735735
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Yucat Parque Temático",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Yucat Parque Temático."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.2894601,
+                "latitude": -33.1147305
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Complejo Recreacional Betania",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Complejo Recreacional Betania."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.3256702,
+                "latitude": -33.271497
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Plaza Del Tanque",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Plaza Del Tanque."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.230751,
+                "latitude": -33.2013931
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Salto De La Moneda",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Salto De La Moneda."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.2343482,
+                "latitude": -33.2614898
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Complejo Sol & Luna",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Complejo Sol & Luna."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -65.4699053,
+                "latitude": -33.6964934
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Parque Acuático El Lago",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Parque Acuático El Lago."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.3795712,
+                "latitude": -33.3066894
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Plaza República",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Plaza República."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.3481193,
+                "latitude": -33.2980649
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Paseo Malvinas",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Paseo Malvinas."
+              }
+            },
+            {
+              "ubicacion": {
+                "longitude": -66.3443157,
+                "latitude": -33.3026057
+              },
+              "categoria": "Turismo",
+              "subcategoria": "Parques",
+              "icono": "Trees",
+              "popup": {
+                "titulo": "Parque Nacional Sierra De Las Quijadas",
+                "categoria": "Turismo",
+                "subcategoria": "Parques",
+                "descripcion": "Parque Nacional Sierra De Las Quijadas."
+              }
+            },
+          
+
       {
         "ubicacion": {
           "longitude": -66.225,
@@ -285,6 +1207,444 @@
           ]
         }
       }
-      }
+      },
+      
+        {
+          "ubicacion": {
+            "longitude": -66.3541472,
+            "latitude": -33.3255165
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Chorrillos",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Chorrillos"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.1015229,
+            "latitude": -32.9406361
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Grande",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Grande"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.046828,
+            "latitude": -33.0799248
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Los Manantiales",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Los Manantiales"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.083077,
+            "latitude": -33.1101289
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río De las Aguilas",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río De las Aguilas"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.1089316,
+            "latitude": -33.1093021
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Rio Virorco, San Luis, Argentina.",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Rio Virorco, San Luis, Argentina."
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.0584404,
+            "latitude": -33.1680096
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Barranquita",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Barranquita"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -57.9600981,
+            "latitude": -35.270842
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río San Luis",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río San Luis"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.4974108,
+            "latitude": -33.6782692
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Quinto",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Quinto"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.3326515,
+            "latitude": -32.0643848
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Conlara",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Conlara"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.0023524,
+            "latitude": -33.0955855
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Riocito San Luis",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Riocito San Luis"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.0748998,
+            "latitude": -33.0632004
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Cascada De Río Grande",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Cascada De Río Grande"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.06236,
+            "latitude": -33.0991533
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río El trapiche",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río El trapiche"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2140816,
+            "latitude": -33.2753444
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Caba as Las Higueritas Y El Rio",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Caba as Las Higueritas Y El Rio"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.064705,
+            "latitude": -33.1124601
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río De Las Águilas",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río De Las Águilas"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.7825285,
+            "latitude": -32.2150341
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Quines",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Quines"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2287124,
+            "latitude": -33.2226972
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río potreros",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río potreros"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.9198004,
+            "latitude": -33.1499467
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río De La Cañada Honda",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río De La Cañada Honda"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2148581,
+            "latitude": -33.2048572
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Los Molles",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Los Molles"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -64.9666063,
+            "latitude": -32.456163
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Los Molles",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Los Molles"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -65.0603873,
+            "latitude": -33.0070716
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Boca del Río",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Boca del Río"
+          }
+        },
+        {
+          "ubicacion": {
+            "longitude": -66.2374993,
+            "latitude": -33.2831457
+          },
+          "categoria": "Turismo",
+          "subcategoria": "Ríos",
+          "icono": "Waves",
+          "popup": {
+            "titulo": "Río Chorrillo",
+            "categoria": "Turismo",
+            "subcategoria": "Ríos",
+            "descripcion": "Río Chorrillo"
+          }
+        },
+        
+          {
+            "ubicacion": {
+              "longitude": -66.2470322,
+              "latitude": -33.2590828
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "Monumento al Pueblo Puntano",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "Monumento al Pueblo Puntano"
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3272843,
+              "latitude": -33.309662
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "Monumento Juan Gilberto Funes",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "Monumento Juan Gilberto Funes"
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.2969174,
+              "latitude": -33.3063185
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "Hito del Bicentenario",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "Hito del Bicentenario"
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.1248096,
+              "latitude": -33.1982591
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "Monumento al zorro",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "Monumento al zorro"
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.1045576,
+              "latitude": -33.1785576
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "Monumento",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "Monumento"
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.331398,
+              "latitude": -33.1588592
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "Replica De La Casa De Tucuman",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "Replica De La Casa De Tucuman"
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3373794,
+              "latitude": -33.3040962
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "MUHSAL Museo Histórico de San Luis",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "MUHSAL Museo Histórico de San Luis"
+            }
+          },
+          {
+            "ubicacion": {
+              "longitude": -66.3363196,
+              "latitude": -33.3073002
+            },
+            "categoria": "Turismo",
+            "subcategoria": "Monumentos",
+            "icono": "Landmark",
+            "popup": {
+              "titulo": "Casa De Las Culturas",
+              "categoria": "Turismo",
+              "subcategoria": "Monumentos",
+              "descripcion": "Casa De Las Culturas"
+            }
+          }
+      
     ]
   }
