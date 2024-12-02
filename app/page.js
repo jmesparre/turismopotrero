@@ -3,7 +3,7 @@ import MapContainer from "./_components/MapContainer";
 
 function Home() {
   return (
-              <MapContainer/>
+      <MapContainer/>
   );
 }
 

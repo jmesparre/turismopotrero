@@ -7,6 +7,20 @@ body {
   height: 100%;
 }
 
+.font1{
+  font-family: geist;
+  font-weight: 400;
+    font-size: small;
+}
+
+.font1bold {
+  font-family: geist;
+  font-weight: 700;
+    font-size: medium;
+    text-wrap-style: balance;
+    
+}
+
 @layer utilities {  
   .text-balance {
     text-wrap: balance;
