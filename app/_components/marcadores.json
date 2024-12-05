@@ -704,7 +704,7 @@
             "icono": "Trees",
             "imagen": "ph.jpg",
             "popup": {
-              "titulo": "Salto Colorado - San Luis",
+              "titulo": "Salto Colorado",
               "categoria": "Turismo",
               "subcategoria": "Parques",
               "descripcion": "Salto Colorado - San Luis."
@@ -1299,7 +1299,7 @@
             "titulo": "Río Chorrillos",
             "categoria": "Turismo",
             "subcategoria": "Ríos",
-            "descripcion": "Río Chorrillos"
+            "descripcion": "Rio Chorrillos"
           }
         },
         {
@@ -1619,7 +1619,7 @@
             "titulo": "Río Chorrillo",
             "categoria": "Turismo",
             "subcategoria": "Ríos",
-            "descripcion": "Río Chorrillo"
+            "descripcion": "Curso de agua que fluye a través de la localidad de Juana Koslay, el río ofrece vistas panorámicas hacia la ciudad de San Luis, el Portezuelo y las sierras de San Luis."
           }
         },
         
