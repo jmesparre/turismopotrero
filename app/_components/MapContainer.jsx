@@ -29,6 +29,7 @@ import {
 } from "lucide-react";
 import { useMapContext } from "./MapContext";
 import "./maplibre-gl.css";
+import { motion } from "framer-motion";
 
 const streetsStyle =
   "https://api.maptiler.com/maps/streets/style.json?key=QQA77dxgxuJjLwWBDCe5";
@@ -180,18 +181,24 @@ function MapContainer() {
 
           return (
             <React.Fragment key={marcador.id}>
+              
               <Marker
                 longitude={marcador.ubicacion.longitude}
                 latitude={marcador.ubicacion.latitude}
                 onClick={() => togglePopup(marcador.id)}
                 onMouseEnter={() => setHoverMarkerId(marcador.id)}
                 onMouseLeave={() => setHoverMarkerId(null)}
-                className="bg-white rounded shadow p-1 hover:p-1.5 transition ease-out"
               >
-                <div>
+                <motion.div
+                className="bg-white rounded shadow p-1 transition ease-out"
+
+                whileHover={{ scale: 1.4 }}
+                whileTap={{ scale: 2 }}
+                onHoverStart={() => console.log('hover started!')}>
                   <Icono size={21} />
-                </div>
+                  </motion.div>
               </Marker>
+             
               {(selectedMarkerId === marcador.id || hoverMarkerId === marcador.id) && (
                 <Popup
                   longitude={marcador.ubicacion.longitude}
@@ -203,7 +210,10 @@ function MapContainer() {
                   closeOnClick={false}
                   className="popup-style select-none pb-9"
                   >
-                    <div className="subpixel-antialiased">
+                    <motion.div 
+                    initial={{ opacity: 0, scale: 0.1 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    className="subpixel-antialiased">
                       {marcador.imagen && (
                         <div className="mb-2">
                           <img 
@@ -256,7 +266,7 @@ function MapContainer() {
                           <Car size={22} className="absolute right-4 bottom-3 hover:right-2 " /> 
                         </button>
                       </div>
-                    </div>
+                    </motion.div>
                 </Popup>
               )}
               {visibleRoutes.has(marcador.id) && marcador.recorrido && (
